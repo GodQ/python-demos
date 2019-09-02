@@ -1,0 +1,5 @@
+[
+  "pytest_ddt.py::BTest::test_step_1",
+  "pytest_ddt.py::BTest::test_step_2",
+  "pytest_ddt.py::BTest::test_step_3"
+]

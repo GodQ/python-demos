@@ -1,0 +1,17 @@
+{
+  "pytest_class_var.py::BTest::test_b1": true,
+  "pytest_class_var.py::BTest::test_b2": true,
+  "pytest_ddt.py::BTest::test_step_1": true,
+  "pytest_ddt.py::BTest::test_step_1___test_1____test_2____test_3__": true,
+  "pytest_ddt.py::BTest::test_step_1_test_1": true,
+  "pytest_ddt.py::BTest::test_step_2": true,
+  "pytest_ddt.py::BTest::test_step_2_test_2": true,
+  "pytest_ddt.py::BTest::test_step_3": true,
+  "pytest_ddt.py::BTest::test_step_3_test_3": true,
+  "pytest_dynamic_methods.py::BTest": true,
+  "pytest_dynamic_methods.py::BTest::test_1": true,
+  "pytest_dynamic_methods.py::BTest::test_2": true,
+  "pytest_dynamic_methods.py::BTest::test_3": true,
+  "pytest_dynamic_methods.py::test_1": true,
+  "pytest_test.py::test_a": true
+}

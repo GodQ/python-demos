@@ -1,0 +1,6 @@
+sudo python3 -m pip install --upgrade twine
+python setup.py sdist bdist_wheel
+
+twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+
+pip install pip-install-test -i https://test.pypi.org/legacy/ dist/*

@@ -1,0 +1,7 @@
+{
+  "pytest_error.py::Test_aaa::()::test_method1": true,
+  "pytest_failures.py::Test_aaa::()::test_method1": true,
+  "unittest_error.py::TestStringMethods::test_isupper": true,
+  "unittest_error.py::TestStringMethods::test_split": true,
+  "unittest_error.py::TestStringMethods::test_upper": true
+}

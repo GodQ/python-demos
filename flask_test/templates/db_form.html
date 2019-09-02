@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+
+<form action="/db_form" method="post">
+    <input type="text" name="insert-name"> <input name="type" type="submit" value="insert"> <br>
+    <input type="text" name="delete-name"> <input name="type" type="submit" value="delete">
+    <input name="type" type="submit" value="delete_all">
+</form>
+<br>
+
+
+<p>
+    Data:
+<ul>
+    {% for d in data_list %}
+        <li> {{ d }} </li>
+    {% endfor %}
+</ul>
+</p>
+
+</body>
+</html>

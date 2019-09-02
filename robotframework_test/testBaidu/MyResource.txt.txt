@@ -1,0 +1,15 @@
+*** Keywords ***
+浏览器打开百度
+    Open Browser    https://www.baidu.com    Chrome
+
+输入关键字并搜索
+    [Arguments]    ${keyword}
+    Input Text    id=kw    ${keyword}
+    click button    id=su
+
+截屏
+    Screenshot.Set Screenshot Directory    screenshot
+    Take Screenshot
+
+关闭浏览器
+    close browser
