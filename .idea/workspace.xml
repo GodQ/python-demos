@@ -2,179 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ba74316-2336-481e-b877-b1bf25c473bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/import_test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/import_test/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/import_test/package1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/import_test/package1/package2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/import_test/package1/package2/test_module1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/import_test/package1/package2/test_module2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/import_test/package1/package3/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/import_test/package1/package3/test_module1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/import_test/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/k8s_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/token.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ast/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ast_test/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ast/ast_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/ast_test/ast_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ast/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/ast_test/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dict_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/dict_test/dict_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/py3env/" />
-    <ignored path="$PROJECT_DIR$/venv/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/import_test/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="26" column="24" lean-forward="true" selection-end-line="67" />
-              <folding>
-                <element signature="e#1#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/import_test/package1/package3/test_module1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/import_test/package1/package2/test_module1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/import_test/package1/package2/test_module2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/xpath/xpath_test.py" />
-        <option value="$PROJECT_DIR$/import_test/test_package/test_module.py" />
-        <option value="$PROJECT_DIR$/import_test/test_package/test_module1.py" />
-        <option value="$PROJECT_DIR$/import_test/test_package/test_module2.py" />
-        <option value="$PROJECT_DIR$/import_test/base.py" />
-        <option value="$PROJECT_DIR$/import_test/package1/package2/test_module1.py" />
-        <option value="$PROJECT_DIR$/import_test/test.py" />
-        <option value="$PROJECT_DIR$/import_test/package1/package3/test_module1.py" />
-      </list>
-    </option>
-  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="68" />
-    <option name="y" value="23" />
-    <option name="width" value="1612" />
-    <option name="height" value="1027" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="python-demos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-demos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-demos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-demos" type="462c0819:PsiDirectoryNode" />
-              <item name="import_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-demos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-demos" type="462c0819:PsiDirectoryNode" />
-              <item name="import_test" type="462c0819:PsiDirectoryNode" />
-              <item name="package1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-demos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-demos" type="462c0819:PsiDirectoryNode" />
-              <item name="import_test" type="462c0819:PsiDirectoryNode" />
-              <item name="package1" type="462c0819:PsiDirectoryNode" />
-              <item name="package2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-demos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-demos" type="462c0819:PsiDirectoryNode" />
-              <item name="import_test" type="462c0819:PsiDirectoryNode" />
-              <item name="package1" type="462c0819:PsiDirectoryNode" />
-              <item name="package3" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1ZAY5xS7LDEIbQdmHEHfXLMukzu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/import_test/package1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/k8s" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/k8s_sa" />
+      <recent name="$PROJECT_DIR$/dict_test" />
       <recent name="$PROJECT_DIR$/import_test/package1/package2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/k8s" />
       <recent name="$PROJECT_DIR$/import_test/package1" />
       <recent name="$PROJECT_DIR$/import_test/test_package" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.k8s">
+    <configuration name="k8s" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -182,11 +69,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/import_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/k8s_sa" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/import_test/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/k8s_sa/k8s.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pyechart_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyechart_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyechart_test/pyechart_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="simple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyechart_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyechart_test/simple.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,7 +126,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.k8s" />
+        <item itemvalue="Python.simple" />
+        <item itemvalue="Python.pyechart_test" />
       </list>
     </recent_temporary>
   </component>
@@ -214,112 +145,54 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="68" y="23" width="1612" height="1027" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22435898" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="DB Browser" order="3" weight="0.32974482" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32919955" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32919955" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="DB Execution Console" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="11" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Mongo Explorer" order="3" />
-      <window_info anchor="right" id="Redis Servers" order="4" />
-    </layout>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xpath/xpath_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/import_test/package1/package3/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2019.1/python_stubs/-584999180/posix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="569" column="4" selection-start-line="569" selection-start-column="4" selection-end-line="569" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/pkgutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="113" column="56" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/inspect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/import_test/package1/package2/test_module2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/import_test/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/import_test/package1/package2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/import_test/package1/package2/test_module1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/import_test/package1/package3/test_module1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/import_test/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="26" column="24" lean-forward="true" selection-end-line="67" />
-          <folding>
-            <element signature="e#1#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586835265602">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1586835265602" />
+    <state width="1259" height="245" key="GridCell.Tab.0.bottom" timestamp="1587103331012">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="245" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1587103331012" />
+    <state width="1259" height="245" key="GridCell.Tab.0.center" timestamp="1587103331009">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="245" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1587103331009" />
+    <state width="1259" height="245" key="GridCell.Tab.0.left" timestamp="1587103331008">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="245" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1587103331008" />
+    <state width="1259" height="245" key="GridCell.Tab.0.right" timestamp="1587103331010">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="245" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1587103331010" />
+    <state width="1259" height="254" key="GridCell.Tab.1.bottom" timestamp="1586906848560">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="254" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586906848560" />
+    <state width="1259" height="254" key="GridCell.Tab.1.center" timestamp="1586906848558">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="254" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1586906848558" />
+    <state width="1259" height="254" key="GridCell.Tab.1.left" timestamp="1586906848557">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="254" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1586906848557" />
+    <state width="1259" height="254" key="GridCell.Tab.1.right" timestamp="1586906848559">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="254" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1586906848559" />
   </component>
 </project>

@@ -5,7 +5,7 @@
       <excludeFolder url="file://$MODULE_DIR$/py3env" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.7 (python-demos)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (python-demos)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
