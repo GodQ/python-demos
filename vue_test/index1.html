@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- import CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+</head>
+<body>
+
+<div id="app">
+    <el-container style="height: 500px; border: 1px solid #eee">
+        <el-aside width="200px" style="background-color: rgb(238, 241, 246)">
+            <el-header width="200px" style="text-align; font-size: 12px; background-color: rgb(238, 241, 246)">
+                Testcase List
+            </el-header>
+            <el-input placeholder="filter" v-model="filterText">
+            </el-input>
+            <el-tree class="filter-tree" :data="tree_data" :props="tree_defaultProps"
+                     :filter-node-method="filterTreeNode" ref="tree"
+                     @node-click="handleTreeNodeClick">
+            </el-tree>
+        </el-aside>
+
+        <el-container>
+            <el-header style="text-align; font-size: 12px">
+                <span>Steps</span>
+            </el-header>
+
+            <el-main>
+                <div id="main" style="width: 600px;height:400px;"></div>
+            </el-main>
+        </el-container>
+    </el-container>
+</div>
+
+<style>
+  .el-header {
+    background-color: #B3C0D1;
+    color: #333;
+    line-height: 60px;
+  }
+
+  .el-aside {
+    color: #333;
+  }
+
+
+</style>
+
+
+</body>
+<!-- import Vue before Element -->
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<!-- import JavaScript -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/echarts@4.1.0/dist/echarts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue-echarts@4.0.2"></script>
+<script>
+
+    new Vue({
+      el: '#app',
+      watch: {
+          filterText(val) {
+            this.$refs.tree.filter(val);
+          }
+      },
+
+      methods: {
+          filterTreeNode(value, data) {
+            if (!value) return true;
+            return data.label.indexOf(value) !== -1;
+          },
+          handleTreeNodeClick(data) {
+            console.log(data);
+          }
+      },
+      data: function() {
+          const item = {
+            date: '2016-05-02',
+            name: '王小虎',
+            address: '上海市普陀区金沙江路 1518 弄'
+          };
+          return {
+            filterText: '',
+            tableData: Array(20).fill(item),
+            tree_data: [
+                {
+                  label: '一级 1',
+                  children: [{
+                    label: '二级 1-1',
+                    children: [{
+                      label: '三级 1-1-1'
+                    }]
+                  }]
+                }, {
+                  label: '一级 2',
+                  children: [{
+                    label: '二级 2-1',
+                    children: [{
+                      label: '三级 2-1-1'
+                    }]
+                  }, {
+                    label: '二级 2-2',
+                    children: [{
+                      label: '三级 2-2-1'
+                    }]
+                  }]
+                }
+            ],
+            tree_defaultProps: {
+                  children: 'children',
+                  label: 'label'
+            },
+
+          }
+      }
+    })
+
+        var myChart = echarts.init(document.getElementById('main'));
+        var option = {
+            title: {
+                text: 'Graph 简单示例'
+            },
+            tooltip: {},
+            animationDurationUpdate: 1500,
+            animationEasingUpdate: 'quinticInOut',
+            series: [
+                {
+                    type: 'graph',
+                    layout: 'none',
+                    symbolSize: 50,
+                    roam: true,
+                    label: {
+                        show: true
+                    },
+                    edgeSymbol: ['circle', 'arrow'],
+                    edgeSymbolSize: [4, 10],
+                    edgeLabel: {
+                        fontSize: 20
+                    },
+                    data: [{
+                        name: '节点1',
+                        x: 300,
+                        y: 300
+                    }, {
+                        name: '节点2',
+                        x: 800,
+                        y: 300
+                    }, {
+                        name: '节点3',
+                        x: 550,
+                        y: 100
+                    }, {
+                        name: '节点4',
+                        x: 550,
+                        y: 500
+                    }],
+                    // links: [],
+                    links: [{
+                        source: 0,
+                        target: 1,
+                        symbolSize: [5, 20],
+                        label: {
+                            show: true
+                        },
+                        lineStyle: {
+                            width: 5,
+                            curveness: 0.2
+                        }
+                    }, {
+                        source: '节点2',
+                        target: '节点1',
+                        label: {
+                            show: true
+                        },
+                        lineStyle: {
+                            curveness: 0.2
+                        }
+                    }, {
+                        source: '节点1',
+                        target: '节点3'
+                    }, {
+                        source: '节点2',
+                        target: '节点3'
+                    }, {
+                        source: '节点2',
+                        target: '节点4'
+                    }, {
+                        source: '节点1',
+                        target: '节点4'
+                    }],
+                    lineStyle: {
+                        opacity: 0.9,
+                        width: 2,
+                        curveness: 0
+                    }
+                }
+            ]
+        };
+
+        // use configuration item and data specified to show chart
+        myChart.setOption(option);
+
+</script>
+
+</html>
