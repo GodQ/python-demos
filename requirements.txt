@@ -8,3 +8,4 @@ pymongo
 pytest==3.8.0
 pytest-timeout==1.3.3
 lxml
+ldap3
